@@ -6,7 +6,10 @@
 		* cssClasses {String} - The CSS classes to apply to the nth child elements
 		* tags {Array} - The names of tags that are allowed to receive the class name
 		*/
-		var defaults = {cssClasses:['first','second','third','fourth','fifth','sixth','seventh','eighth','ninth','tenth','eleventh','twelfth'], tags:['div', 'li', 'th', 'tr', 'td']};
+		var defaults = {
+			cssClasses:['first','second','third','fourth','fifth','sixth','seventh','eighth','ninth','tenth','eleventh','twelfth'],
+			tags:['div', 'li', 'th', 'tr', 'td']
+		};
 
 		options = $.extend(defaults, options);
 
