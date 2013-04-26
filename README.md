@@ -6,14 +6,14 @@ jQuery nthChild is a simple Polyfill plugin to provide IE&lt;9 support for nth C
 Usage
 -----
 
-**Default Settings**
+#### Default Settings
 ```js
 $('.lt-ie9 .ie-nthchild').nthChild();
 ```
 
 A `data-reset` data attribute can be used to set a zero-based reset index when cycling through large numbers of items or modifying behavior of the plugin.
 
-**HTML**
+#### HTML
 This:
 ```html
 <ul class="grid-list ie-nthchild" data-reset="3">
@@ -53,7 +53,7 @@ So you can do **this** in your CSS and have it work in IE 7 or 8:
 }
 ```
 
-**Custom Settings**
+#### Custom Settings
 You could use this plugin to add even/odd classes to elements for IE. Use along with `data-reset="2"`.
 ```js
 $('.lt-ie9 .ie-even-odd').nthChild({
@@ -64,4 +64,4 @@ $('.lt-ie9 .ie-even-odd').nthChild({
 Settings
 --------
 
-* **cssClasses** _(Default: ['first','second','third','fourth','fifth','sixth','seventh','eighth','ninth','tenth','eleventh','twelfth'])_ An array of string values to be used as your fallback CSS hooks.
+* **cssClasses** _(Default: ['first','second','third','fourth','fifth','sixth','seventh','eighth','ninth','tenth','eleventh','twelfth'])_ : An array of string values to be used as your fallback CSS hooks.
